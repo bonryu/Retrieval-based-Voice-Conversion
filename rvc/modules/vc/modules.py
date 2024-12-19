@@ -17,7 +17,7 @@ from rvc.lib.infer_pack.models import (
     SynthesizerTrnMs768NSFsid_nono,
 )
 from rvc.modules.vc.pipeline import Pipeline
-from rvc.modules.vc.utils import *
+# from rvc.modules.vc.utils import *
 
 logger: logging.Logger = logging.getLogger(__name__)
 

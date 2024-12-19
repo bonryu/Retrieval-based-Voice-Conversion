@@ -1,6 +1,10 @@
 import os
 
+# from pathlib import Path
 from fairseq import checkpoint_utils
+
+# pathstr = os.getenv("index_root", ".")
+# path = Path(pathstr)
 
 
 def get_index_path_from_model(sid):
